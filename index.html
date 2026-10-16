@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mage vs. Horde</title>
+    <meta name="description" content="Cast huge spells from a tower into an endless horde of orcs. A physics prototype." />
+    <meta name="build" content="ea1b65b" />
+    <meta name="theme-color" content="#12161b" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mage vs. Horde" />
+    <meta property="og:description" content="Cast huge spells from a tower into an endless horde of orcs. A physics prototype." />
+    <meta property="og:url" content="https://elarion-game-dev.github.io/mage-vs-horde/" />
+    <!-- The picture a chat or a feed shows beside the link. It has to be a full address. -->
+    <meta property="og:image" content="https://elarion-game-dev.github.io/mage-vs-horde/preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A meteor lands in a horde of orcs, seen from the top of a stone tower." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- The loading screen is styled here, so it shows before anything else has arrived. -->
+    <style>html,body{background:#12161b;height:100%;margin:0}#loading{z-index:50;color:#f3f5f7;background:#12161b;place-items:center;font-family:Segoe UI,system-ui,-apple-system,Helvetica Neue,Arial,sans-serif;transition:opacity .35s;display:grid;position:fixed;inset:0}#loading.done{opacity:0;pointer-events:none}#loading .box{text-align:center;width:min(340px,80vw)}#loading h1{margin:0 0 10px;font-size:24px;font-weight:750}#loading p{color:#b4bdc7;min-height:1.4em;margin:0;font-size:14px}#loading.failed p{color:#ff8f7a}</style>
+    <script type="module" crossorigin src="./assets/index-CnqINd_5.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three-CABmcoJ9.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DhdBIndk.css">
+  </head>
+  <body>
+    <canvas id="stage"></canvas>
+    <div id="ui"></div>
+    <div id="loading" role="status" aria-live="polite">
+      <div class="box">
+        <h1>Mage vs. Horde</h1>
+        <p id="loading-line">Loading</p>
+        <noscript><p>This game needs JavaScript switched on.</p></noscript>
+      </div>
+    </div>
+  </body>
+</html>
